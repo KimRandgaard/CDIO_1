@@ -37,7 +37,7 @@ public class DiceGame {
         int newVal = 0;
 
 
-        while (newVal <= 20){
+        while (newVal <= 30){
             int d1 = (int) (Math.random() * 6 + 1);
             int d2 = (int) (Math.random() * 6 + 1);
             int valueCurrent = d1 + d2;
